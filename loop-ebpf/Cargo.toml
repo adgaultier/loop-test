@@ -1,0 +1,13 @@
+[package]
+name = "loop-ebpf"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aya-ebpf = { workspace = true }
+aya-log-ebpf = { workspace = true }
+
+
+[[bin]]
+name = "loop"
+path = "src/main.rs"
